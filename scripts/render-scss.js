@@ -7,8 +7,8 @@ const postcss = require('postcss')
 const sass = require('sass');
 const sh = require('shelljs');
 
-const stylesPath = '../src/scss/styles.scss';
-const destPath = upath.resolve(upath.dirname(__filename), '../dist/css/styles.css');
+const stylesPath = '../src/sass/main.scss';
+const destPath = upath.resolve(upath.dirname(__filename), '../dist/assets/css/main.css');
 
 module.exports = function renderSCSS() {
     
@@ -24,7 +24,7 @@ module.exports = function renderSCSS() {
         sh.mkdir('-p', destPathDirname);
     }
 
-    postcss([ autoprefixer ]).process(results.css, {from: 'styles.css', to: 'styles.css'}).then(result => {
+    postcss([ autoprefixer ]).process(results.css, {from: 'main.css', to: 'main.css'}).then(result => {
         result.warnings().forEach(warn => {
             console.warn(warn.toString())
         })
