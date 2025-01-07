@@ -1,187 +1,88 @@
-doctype html
+extends layout
 
-head
-    title Дитячі аніматори Київ та область недорого на виїзд
-    meta(http-equiv='X-UA-Compatible' content='ie=edge')
-    meta(charset='utf-8')
-    meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
-    meta(name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')
-    meta(name="description" content="Аніматори на виїзд у Києві, Київській області ✅️ Аніматори для дітей замовити Київ ⚡ на дитяче свято, день народження, у садок, в ресторан")
-    link(rel='alternate' hreflang='ua' href="https://royalevents.kiev.ua")
-    meta(property="og:locale" content="uk_UA")
-    meta(property="og:type" content="article")
-    meta(property="og:title" content="Дитячі аніматори Київ та область недорого на виїзд")
-    meta(property="og:description" content="Аніматори на виїзд у Києві, Київській області ✅️ Аніматори для дітей замовити Київ ⚡ на дитяче свято, день народження, у садок, в ресторан")
-    meta(property="og:url" content="https://royalevents.kiev.ua")
-    meta(property="og:site_name" content="Royal Events")
-    meta(property="article:modified_time" content="2025-01-03T18:09:33+00:00")
-    link(rel="icon" type="image/x-icon" href="https://img.icons8.com/3d-fluency/94/joker.png")
-    link(rel='stylesheet' href='assets/css/main.css')
-    noscript
-        link(rel='stylesheet' href='assets/css/noscript.css')
-body.is-preload
-    // Page Wrapper
-    #page-wrapper
-        // Header
-        header#header.alt
-            h1
-                a(href='index.html') Royal Events
-            nav
-                a(href='#menu') Menu
-        // Menu
-        nav#menu
+block content
+    // Banner
+    section#banner
+        .inner
+            .logo
+                img(src='assets/images/logo.webp')
+            h2 Проведення та організація дитячих свят у Києві та області
+            p
+                | Аніматори, випускні, новорічні програми, дні народження, шоу мильних бульбашок, Слайми
+            p
+                span.icon.solid.fa-phone (097) 881-51-10
+                span.icon.solid.fa-phone (063) 170-80-35
+                span.icon.solid.fa-phone (099) 551-18-75
+    // Wrapper
+    section#wrapper
+        // One
+        section#one.wrapper.spotlight.style1
             .inner
-                h2 Menu
-                ul.links
-                    li
-                        a(href='index.html') Головна
-                    li
-                        a(href='animators.html') Аніматори
-                    li
-                        a(href='shows.html') Дитячі Шоу
-                    li
-                        a(href='costumes.html') Костюми
-                a.close(href='#') Close
-        // Banner
-        section#banner
+                a.image(href='#')
+                    img(src='assets/images/_custom/animators_01.webp' alt='')
+                .content
+                    h2.major Аніматор: 1200 грн/година
+                    p
+                        | Подаруйте дітям незабутні емоції! Наші професійні аніматори перетворять ваше свято на яскраву казку, повну ігор, веселощів та позитиву. Вартість — лише 1200 грн/година, і жодна дитина не залишиться без посмішки!
+                    a.special(href='animators.html') Більше інфо
+        // Two
+        section#two.wrapper.alt.spotlight.style2
             .inner
-                .logo
-                    img(src='assets/images/logo.webp')
-                h2 Проведення та організація дитячих свят у Києві та області
+                a.image(href='#')
+                    img(src='assets/images/_custom/show.webp' alt='' loading='lazy')
+                .content
+                    h2.major Мильне шоу: 2500 грн
+                    p
+                        | Зачаруйте гостей магією мильних бульбашок! Шоу тривалістю 30-40 хвилин перенесе вас у світ фантазії, де бульбашки танцюють, літають і навіть обіймають. Ідеальний вибір для яскравого фіналу свята — всього за 2500 грн!
+                    a.special(href='shows.html') Більше інфо
+        // Three
+        section#three.wrapper.spotlight.style3
+            .inner
+                a.image(href='#')
+                    img(src='assets/images/_custom/panda.webp' alt='' loading='lazy')
+                .content
+                    h2.major Мішка, панда, пес Патрон, зайка, мішка Тедді: 1300 грн
+                    p
+                        | Додайте свята великою дозою радості! Наші костюмовані герої — Мішка, Панда, Пес Патрон, Зайка та Мішка Тедді — подарують незабутні обійми, веселі ігри та море позитиву. Вартість участі героя — лише 1300 грн!
+                    a.special(href='costumes.html') Більше інфо
+        // Four
+        section#four.wrapper.alt.style1
+            .inner
+                h2.major Яскраві емоції, які залишаться в пам’яті назавжди!
                 p
-                    | Аніматори, випускні, новорічні програми, дні народження, шоу мильних бульбашок, Слайми
-                p
-                    span.icon.solid.fa-phone (097) 881-51-10
-                    span.icon.solid.fa-phone (063) 170-80-35
-                    span.icon.solid.fa-phone (099) 551-18-75
-        // Wrapper
-        section#wrapper
-            // One
-            section#one.wrapper.spotlight.style1
-                .inner
-                    a.image(href='#')
-                        img(src='assets/images/_custom/animators_01.webp' alt='')
-                    .content
-                        h2.major Аніматор: 1200 грн/година
+                    | Ми створюємо свята, які захоплюють, дивують та радують дітей і дорослих! Обирайте те, що зробить ваш день особливим — ми подбаємо про все до дрібниць.
+                section.features
+                    article
+                        a.image(href='#')
+                            img(src='assets/images/_custom/slimes.webp' alt='' loading='lazy')
+                        h3.major Слайми: творчість, що вражає
                         p
-                            | Подаруйте дітям незабутні емоції! Наші професійні аніматори перетворять ваше свято на яскраву казку, повну ігор, веселощів та позитиву. Вартість — лише 1200 грн/година, і жодна дитина не залишиться без посмішки!
-                        a.special(href='animators.html') Більше інфо
-            // Two
-            section#two.wrapper.alt.spotlight.style2
-                .inner
-                    a.image(href='#')
-                        img(src='assets/images/_custom/show.webp' alt='' loading='lazy')
-                    .content
-                        h2.major Мильне шоу: 2500 грн
+                            | Дітлахи обожнюють створювати щось власними руками! Майстер-клас зі слаймів — це не лише весело, але й корисно, адже розвиває фантазію та дрібну моторику.
+                        a.special(href='#') Більше інфо
+                    article
+                        a.image(href='#')
+                            img(src='assets/images/_custom/santa.webp' alt='' loading='lazy')
+                        h3.major Костюми: герої, що оживають
                         p
-                            | Зачаруйте гостей магією мильних бульбашок! Шоу тривалістю 30-40 хвилин перенесе вас у світ фантазії, де бульбашки танцюють, літають і навіть обіймають. Ідеальний вибір для яскравого фіналу свята — всього за 2500 грн!
-                        a.special(href='shows.html') Більше інфо
-            // Three
-            section#three.wrapper.spotlight.style3
-                .inner
-                    a.image(href='#')
-                        img(src='assets/images/_custom/panda.webp' alt='' loading='lazy')
-                    .content
-                        h2.major Мішка, панда, пес Патрон, зайка, мішка Тедді: 1300 грн
-                        p
-                            | Додайте свята великою дозою радості! Наші костюмовані герої — Мішка, Панда, Пес Патрон, Зайка та Мішка Тедді — подарують незабутні обійми, веселі ігри та море позитиву. Вартість участі героя — лише 1300 грн!
+                            | Втілюйте мрії своїх дітей! Чарівні костюми улюблених персонажів подарують дітям незабутнє відчуття казки та свята.
                         a.special(href='costumes.html') Більше інфо
-            // Four
-            section#four.wrapper.alt.style1
-                .inner
-                    h2.major Яскраві емоції, які залишаться в пам’яті назавжди!
-                    p
-                        | Ми створюємо свята, які захоплюють, дивують та радують дітей і дорослих! Обирайте те, що зробить ваш день особливим — ми подбаємо про все до дрібниць.
-                    section.features
-                        article
-                            a.image(href='#')
-                                img(src='assets/images/_custom/slimes.webp' alt='' loading='lazy')
-                            h3.major Слайми: творчість, що вражає
-                            p
-                                | Дітлахи обожнюють створювати щось власними руками! Майстер-клас зі слаймів — це не лише весело, але й корисно, адже розвиває фантазію та дрібну моторику.
-                            a.special(href='#') Більше інфо
-                        article
-                            a.image(href='#')
-                                img(src='assets/images/_custom/santa.webp' alt='' loading='lazy')
-                            h3.major Костюми: герої, що оживають
-                            p
-                                | Втілюйте мрії своїх дітей! Чарівні костюми улюблених персонажів подарують дітям незабутнє відчуття казки та свята.
-                            a.special(href='costumes.html') Більше інфо
-                        article
-                            a.image(href='#')
-                                img(src='assets/images/_custom/show02.webp' alt='' loading='lazy')
-                            h3.major Шоу з сюрпризами: магія для всіх
-                            p
-                                | Додайте драйву вашому святу! Чарівники, науковці та навіть Тесла-шоу змусять гостей затамувати подих від захвату!
-                            a.special(href='shows.html') Більше інфо
-                        article
-                            a.image(href='#')
-                                img(src='assets/images/_custom/kids01.webp' alt='' loading='lazy')
-                            h3.major Розваги для найменших: турбота та щирість
-                            p
-                                | Ігри, інтерактиви, танці — ми знайдемо підхід навіть до найменших гостей, створюючи атмосферу тепла та щастя.
-                            a.special(href='games.html') Більше інфо
-                    ul.actions
-                        li
-                            a.button(href='#footer') Зв'язатись з нами
-            // Footer
-            section#footer
-                .inner
-                    h2.major Зв'язатися з нами...
-                    p
-                        | Залиште заявку, і ми допоможемо організувати свято, яке перевершить ваші очікування! Зв’яжіться з нами вже зараз — ваша казка починається тут.
-                    form(method='post' action='#')
-                        .fields
-                            .field
-                                label(for='name') Name
-                                input#name(type='text' name='name')
-                            .field
-                                label(for='email') Email
-                                input#email(type='email' name='email')
-                            .field
-                                label(for='message') Message
-                                textarea#message(name='message' rows='4')
-                        ul.actions
-                            li
-                                input(type='submit' value='Send Message')
-                    ul.contact
-                        li.icon.solid.fa-home
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Київ та область
-                        li.icon.solid.fa-phone (097) 881-51-10
-                        li.icon.solid.fa-phone (063) 170-80-35
-                        li.icon.solid.fa-phone (099) 551-18-75
-                        li.icon.solid.fa-envelope
-                            a(href='#') sekhno@icloud.com
-                        li.icon.solid.fa-youtube
-                            a(href='https://www.youtube.com/channel/UCIM1Si3GghVmLZlVhi3i-yg') YouTube Chanel
-                    ul.copyright
-                        li &copy; RoyalEvents.Kiev.ua. All rights reserved.
-                        li
-                            | Design:
-                            a(href='https://sekhnodev.com') Dmytro Sekhno
-// Scripts
-script(src='js/jquery.min.js')
-script(src='js/jquery.scrollex.min.js')
-script(src='js/browser.min.js')
-script(src='js/breakpoints.min.js')
-script(src='js/util.js')
-script(src='js/main.js')
-script(type='module').
-
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
-
-
-    const firebaseConfig = {
-        apiKey: "AIzaSyAAsV2ynFA5DrgLFxSFOV2emCwesTvuj1E",
-        authDomain: "ticcai-c459a.firebaseapp.com",
-        projectId: "ticcai-c459a",
-        storageBucket: "ticcai-c459a.firebasestorage.app",
-        messagingSenderId: "676431152143",
-        appId: "1:676431152143:web:0a8806c159711747444f7a",
-        measurementId: "G-86E0LQ9WED"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-
+                    article
+                        a.image(href='#')
+                            img(src='assets/images/_custom/show02.webp' alt='' loading='lazy')
+                        h3.major Шоу з сюрпризами: магія для всіх
+                        p
+                            | Додайте драйву вашому святу! Чарівники, науковці та навіть Тесла-шоу змусять гостей затамувати подих від захвату!
+                        a.special(href='shows.html') Більше інфо
+                    article
+                        a.image(href='#')
+                            img(src='assets/images/_custom/kids01.webp' alt='' loading='lazy')
+                        h3.major Розваги для найменших: турбота та щирість
+                        p
+                            | Ігри, інтерактиви, танці — ми знайдемо підхід навіть до найменших гостей, створюючи атмосферу тепла та щастя.
+                        a.special(href='games.html') Більше інфо
+                ul.actions
+                    li
+                        a.button(href='#footer') Зв'язатись з нами
+        // Footer
+        include footer
+    include scripts
