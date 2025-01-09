@@ -1,12 +1,12 @@
-extends layout
+extends ../layout
 
 block head
-    title 'Ігри'
-    meta(name="description" content='Ігри, які захоплюють та об’єднують!')
+    title Захоплюючі Ігри для Дітей – Веселі Естафети, Квести та Командні Ігри на Вашому Святі
+    meta(name="description" content='Наші ігри створюють незабутню атмосферу веселощів і є чудовим способом об’єднати дітей, зробити їх більш активними та кмітливими. Від естафет до вікторин, від ігор з реквізитом до командних змагань — кожен знайде щось для себе! Подаруйте дітям справжнє свято з веселими та захоплюючими іграми!')
 
 block headTitle
     h1
-        a(href='index.html') 'Ігри, які захоплюють та об’єднують!'
+        a(href='/') 'Ігри, які захоплюють та об’єднують!'
 
 block content
     // Wrapper
@@ -46,7 +46,6 @@ block content
 
                 section
                     h3.major
-                    //h4 Fit
                     .box.alt
                         .row.gtr-uniform
                             .col-4.col-12-small
@@ -96,5 +95,5 @@ block content
                                     img(src='assets/images/_custom/shows16.webp' alt='games' loading='lazy')
 
         // Footer
-        include footer
-    include scripts
+        include ../footer
+    include ../scripts

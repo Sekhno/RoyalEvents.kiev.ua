@@ -1,12 +1,12 @@
-extends layout
+extends ../layout
 
 block head
-    title 'Аніматори'
-    meta(name="description" content='Аніматори - Майстри радості та веселощів, які зроблять ваше свято незабутнім!')
+    title Аніматори
+    meta(name="description" content='Майстри радості та веселощів, які роблять кожне свято незабутнім! Наші аніматори — це справжні професіонали своєї справи, які вміють заряджати енергією та емоціями. Вони створять веселу атмосферу та подарують дітям море радості, сміху та незабутніх моментів!')
 
 block headTitle
     h1
-        a(href='index.html') 'Аніматори - Майстри радості та веселощів, які зроблять ваше свято незабутнім!'
+        a(href='/') 'Аніматори - Майстри радості та веселощів, які зроблять ваше свято незабутнім!'
 
 block content
     // Wrapper
@@ -64,5 +64,5 @@ block content
                                     img(src='assets/images/_custom/animators09.webp' alt='animators' loading='lazy')
 
         // Footer
-        include footer
-    include scripts
+        include ../footer
+    include ../scripts

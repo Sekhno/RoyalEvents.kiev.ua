@@ -2,13 +2,13 @@ doctype html
 
 head
     block head
-        title '!!!'
-        meta(name="description" content='!!!')
+        title 'default'
+        meta(name="description" content='default')
     meta(http-equiv='X-UA-Compatible' content='ie=edge')
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
     meta(name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')
-
+    link(rel="canonical" href="https://royalevents.kiev.ua/")
     link(rel='alternate' hreflang='ua' href="https://royalevents.kiev.ua")
     meta(property="og:locale" content="uk_UA")
     meta(property="og:type" content="article")
@@ -17,6 +17,7 @@ head
     meta(property="og:url" content="https://royalevents.kiev.ua")
     meta(property="og:site_name" content="Royal Events")
     meta(property="article:modified_time" content="2025-01-03T18:09:33+00:00")
+    base(href='/')
     link(rel="icon" type="image/x-icon" href="https://img.icons8.com/3d-fluency/94/joker.png")
     link(rel='stylesheet' href='assets/css/main.css')
     noscript
@@ -28,7 +29,7 @@ body.is-preload
         header#header.alt
             block headTitle
                 h1
-                    a(href='index.html') 'Royal Events'
+                    a(href='/') 'Royal Events'
             nav
                 a(href='#menu') Menu
         // Menu
@@ -37,12 +38,14 @@ body.is-preload
                 h2 Menu
                 ul.links
                     li
-                        a(href='index.html') Головна
+                        a(href='/') Головна
                     li
-                        a(href='animators.html') Аніматори
+                        a(href='animators') Аніматори
                     li
-                        a(href='shows.html') Дитячі Шоу
+                        a(href='shows') Дитячі Шоу
                     li
-                        a(href='costumes.html') Костюми
+                        a(href='costumes') Костюми
+                    li
+                        a(href='games') Ігри
                 a.close(href='#') Close
         block content

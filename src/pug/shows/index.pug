@@ -1,12 +1,12 @@
-extends layout
+extends ../layout
 
 block head
-    title 'Дитячі Шоу'
-    meta(name="description" content='Дитячі Шоу - Яскраві та захоплюючі шоу, які зроблять ваше свято магічним!')
+    title Дитячі Шоу
+    meta(name="description" content='Яскраві, захоплюючі та незабутні шоу, які зроблять ваше свято по-справжньому магічним! Ми пропонуємо мильні бульбашки, вогняні шоу, хімічні шоу та багато іншого. Кожне шоу — це не просто розвага, а справжнє мистецтво, яке вражає і захоплює як дітей, так і дорослих.')
 
 block headTitle
     h1
-        a(href='index.html') 'Дитячі Шоу - Яскраві та захоплюючі шоу, які зроблять ваше свято магічним!'
+        a(href='/') 'Дитячі Шоу - Яскраві та захоплюючі шоу, які зроблять ваше свято магічним!'
 
 block content
     // Wrapper
@@ -83,5 +83,5 @@ block content
                                     img(src='assets/images/_custom/shows16.webp' alt='shows' loading='lazy')
 
         // Footer
-        include footer
-    include scripts
+        include ../footer
+    include ../scripts
