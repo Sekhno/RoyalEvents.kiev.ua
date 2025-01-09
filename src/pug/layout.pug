@@ -1,12 +1,14 @@
 doctype html
 
 head
-    title Дитячі аніматори Київ та область недорого на виїзд
+    block head
+        title '!!!'
+        meta(name="description" content='!!!')
     meta(http-equiv='X-UA-Compatible' content='ie=edge')
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
     meta(name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')
-    meta(name="description" content="Аніматори на виїзд у Києві, Київській області ✅️ Аніматори для дітей замовити Київ ⚡ на дитяче свято, день народження, у садок, в ресторан")
+
     link(rel='alternate' hreflang='ua' href="https://royalevents.kiev.ua")
     meta(property="og:locale" content="uk_UA")
     meta(property="og:type" content="article")
@@ -24,8 +26,9 @@ body.is-preload
     #page-wrapper
         // Header
         header#header.alt
-            h1
-                a(href='index.html') Royal Events
+            block headTitle
+                h1
+                    a(href='index.html') 'Royal Events'
             nav
                 a(href='#menu') Menu
         // Menu
