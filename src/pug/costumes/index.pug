@@ -1,12 +1,12 @@
-extends layout
+extends ../layout
 
 block head
-    title 'Костюми'
-    meta(name="description" content='Костюми - Втілюйте мрії своїх дітей з яскравими костюмами улюблених героїв!')
+    title Яскраві Костюми для Дітей на Святкові Події – Казкові Персонажі та Супергерої для Вашого Свята
+    meta(name="description" content='Втілюйте мрії своїх дітей з яскравими та креативними костюмами улюблених героїв! Ми пропонуємо великий вибір костюмів для будь-якої тематики — від казкових персонажів до супергероїв. Нехай ваші діти відчують себе частиною справжньої казки, перетворюючись на улюблених героїв на святі!')
 
 block headTitle
     h1
-        a(href='index.html') 'Костюми - Втілюйте мрії своїх дітей з яскравими костюмами улюблених героїв!'
+        a(href='/') 'Костюми - Втілюйте мрії своїх дітей з яскравими костюмами улюблених героїв!'
 
 block content
     // Wrapper
@@ -69,5 +69,6 @@ block content
                                 span.image.fit
                                     img(src='assets/images/_custom/costumes11.webp' alt='costumes' loading='lazy')
     // Footer
-    include footer
-    include scripts
+    include ../footer
+    include ../scripts
+

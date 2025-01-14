@@ -1,19 +1,19 @@
 extends layout
 
 block head
-    title 'Дитячі аніматори Київ та область недорого на виїзд'
-    meta(name="description" content='Аніматори на виїзд у Києві, Київській області ✅️ Аніматори для дітей замовити Київ ⚡ на дитяче свято, день народження, у садок, в ресторан')
+    title Дитячі аніматори або аніматор Київ та область недорого на виїзд
+    meta(name="description" content='Аніматори або аніматор на виїзд у Києві, Київській області ✅️ Аніматори для дітей замовити Київ ⚡ на дитяче свято, день народження, у садок, в ресторан')
 
 block headTitle
     h1
-        a(href='index.html') 'Royal Events'
+        a(href='/') 'Royal Events'
 
 block content
     // Banner
     section#banner
         .inner
             .logo
-                img(src='assets/images/Royal Events.svg')
+                img(src='assets/images/Royal Events.svg' alt='Логотип компанії з організації дитячих свят')
             h2 Проведення та організація дитячих свят у Києві та області
             p
                 | Аніматори, випускні, новорічні програми, дні народження, шоу мильних бульбашок, Слайми
@@ -26,33 +26,33 @@ block content
         // One
         section#one.wrapper.spotlight.style1
             .inner
-                a.image(href='#')
-                    img(src='assets/images/_custom/animators_01.webp' alt='animators')
+                a.image(href='animators')
+                    img(src='assets/images/_custom/animators_01.webp' alt='Дитячий аніматор на дитячому святі')
                 .content
                     h2.major Аніматор: 1200 грн/година
                     p
                         | Подаруйте дітям незабутні емоції! Наші професійні аніматори перетворять ваше свято на яскраву казку, повну ігор, веселощів та позитиву. Вартість — лише 1200 грн/година, і жодна дитина не залишиться без посмішки!
-                    a.special(href='animators.html') Більше інфо
+                    a.special(href='animators') Більше інфо
         // Two
         section#two.wrapper.alt.spotlight.style2
             .inner
-                a.image(href='#')
-                    img(src='assets/images/_custom/show.webp' alt='show' loading='lazy')
+                a.image(href='shows')
+                    img(src='assets/images/_custom/show.webp' loading='lazy' alt='Шоу з мильними бульбашками стане яскравою та незвичайною прикрасою будь-якої дитячої урочистості')
                 .content
                     h2.major Мильне шоу: 2500 грн
                     p
                         | Зачаруйте гостей магією мильних бульбашок! Шоу тривалістю 30-40 хвилин перенесе вас у світ фантазії, де бульбашки танцюють, літають і навіть обіймають. Ідеальний вибір для яскравого фіналу свята — всього за 2500 грн!
-                    a.special(href='shows.html') Більше інфо
+                    a.special(href='shows') Більше інфо
         // Three
         section#three.wrapper.spotlight.style3
             .inner
-                a.image(href='#')
-                    img(src='assets/images/_custom/panda.webp' alt='panda' loading='lazy')
+                a.image(href='costumes')
+                    img(src='assets/images/_custom/panda.webp' loading='lazy' alt='Костюми Панда для яскравих дитячих свят та заходів')
                 .content
                     h2.major Мішка, панда, пес Патрон, зайка, мішка Тедді: 1300 грн
                     p
                         | Додайте свята великою дозою радості! Наші костюмовані герої — Мішка, Панда, Пес Патрон, Зайка та Мішка Тедді — подарують незабутні обійми, веселі ігри та море позитиву. Вартість участі героя — лише 1300 грн!
-                    a.special(href='costumes.html') Більше інфо
+                    a.special(href='costumes') Більше інфо
         // Four
         section#four.wrapper.alt.style1
             .inner
@@ -61,36 +61,37 @@ block content
                     | Ми створюємо свята, які захоплюють, дивують та радують дітей і дорослих! Обирайте те, що зробить ваш день особливим — ми подбаємо про все до дрібниць.
                 section.features
                     article
-                        a.image(href='#')
-                            img(src='assets/images/_custom/slimes.webp' alt='slimes' loading='lazy')
+                        a.image(href='/')
+                            img(src='assets/images/_custom/slimes.webp' loading='lazy' alt='Набори для створення яскравих та захоплюючих слаймів своїми руками')
                         h3.major Слайми: творчість, що вражає
                         p
                             | Дітлахи обожнюють створювати щось власними руками! Майстер-клас зі слаймів — це не лише весело, але й корисно, адже розвиває фантазію та дрібну моторику.
-                        a.special(href='#') Більше інфо
+                        a.special(href='/') Більше інфо
                     article
-                        a.image(href='costumes.html')
-                            img(src='assets/images/_custom/santa.webp' alt='costumes' loading='lazy')
+                        a.image(href='costumes')
+                            img(src='assets/images/_custom/santa.webp' loading='lazy' alt='Оригінальні та яскраві костюми для свят та заходів' )
                         h3.major Костюми: герої, що оживають
                         p
                             | Втілюйте мрії своїх дітей! Чарівні костюми улюблених персонажів подарують дітям незабутнє відчуття казки та свята.
-                        a.special(href='costumes.html') Більше інфо
+                        a.special(href='costumes') Більше інфо
                     article
-                        a.image(href='shows.html')
-                            img(src='assets/images/_custom/show02.webp' alt='show' loading='lazy')
+                        a.image(href='shows')
+                            img(src='assets/images/_custom/show02.webp' loading='lazy' alt='Захоплююче дитяче шоу для веселих та незабутніх свят')
                         h3.major Шоу з сюрпризами: магія для всіх
                         p
                             | Додайте драйву вашому святу! Чарівники, науковці та навіть Тесла-шоу змусять гостей затамувати подих від захвату!
-                        a.special(href='shows.html') Більше інфо
+                        a.special(href='shows') Більше інфо
                     article
-                        a.image(href='games.html')
+                        a.image(href='games')
                             img(src='assets/images/_custom/kids01.webp' alt='games' loading='lazy')
                         h3.major Розваги для найменших: турбота та щирість
                         p
                             | Ігри, інтерактиви, танці — ми знайдемо підхід навіть до найменших гостей, створюючи атмосферу тепла та щастя.
-                        a.special(href='games.html') Більше інфо
+                        a.special(href='games') Більше інфо
                 ul.actions
                     li
                         a.button(href='#footer') Зв'язатись з нами
         // Footer
         include footer
     include scripts
+

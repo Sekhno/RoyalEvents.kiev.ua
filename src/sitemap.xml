@@ -7,31 +7,54 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://royalevents.kiev.ua/</loc>
-  <lastmod>2025-01-06T15:14:42+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://royalevents.kiev.ua/index.html</loc>
-  <lastmod>2025-01-06T15:14:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://royalevents.kiev.ua/animators.html</loc>
-  <lastmod>2025-01-06T15:14:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://royalevents.kiev.ua/shows.html</loc>
-  <lastmod>2025-01-06T15:14:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://royalevents.kiev.ua/costumes.html</loc>
-  <lastmod>2025-01-06T15:14:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+  <url>
+    <loc>https://royalevents.kiev.ua/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/animators/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/shows/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/costumes/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/games/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/ru/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/ru/animators/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/ru/shows/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/ru/costumes/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://royalevents.kiev.ua/ru/games/</loc>
+    <lastmod>2025-01-06T15:14:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
