@@ -1,0 +1,100 @@
+extends layout
+
+block html
+    html(lang='ru')
+
+block head
+    title Детские аниматоры или аниматор Киев и область недорого на выезд
+    meta(name="description" content='Аниматоры или Аниматор на выезд в Киеве, Киевской области ✅️ Аниматоры для детей заказать Киев ⚡ на детский праздник, день рождения, в сад, в ресторан')
+
+block headTitle
+    h1
+        a(href='/ru/') Royal Events
+
+block content
+    // Banner
+    section#banner
+        .inner
+            .logo
+                img(src='assets/images/Royal Events.svg' alt='Логотип компании по организации детских праздников')
+            h2 Проведение и организация детских праздников в Киеве и области
+            p
+                | Аниматоры, выпускные, новогодние программы, дни рождения, шоу мыльных пузырей, Слаймы
+            p
+                span.icon.solid.fa-phone (097) 881-51-10
+                span.icon.solid.fa-phone (063) 170-80-35
+                span.icon.solid.fa-phone (099) 551-18-75
+    // Wrapper
+    section#wrapper
+        // One
+        section#one.wrapper.spotlight.style1
+            .inner
+                a.image(href='/ru/animators')
+                    img(src='assets/images/_custom/animators_01.webp' alt='Детский аниматор на дестком празднике')
+                .content
+                    h2.major Аниматор: 1200 грн/час
+                    p
+                        | Подарите детям незабываемые эмоции! Наши профессиональные аниматоры превратят ваш праздник в яркую сказку, полную игр, веселья и позитива. Стоимость – всего 1200 грн/час, и ни один ребенок не останется без улыбки!
+                    a.special(href='/ru/animators') Больше инфо
+        // Two
+        section#two.wrapper.alt.spotlight.style2
+            .inner
+                a.image(href='/ru/shows')
+                    img(src='assets/images/_custom/show.webp' loading='lazy' alt='Шоу с мыльными пузырями станет ярким и необычным украшением любого детского торжества' )
+                .content
+                    h2.major Мыльное шоу: 2500 грн
+                    p
+                        | Очаруйте гостей магией мыльных пузырей! Шоу продолжительностью 30-40 минут перенесёт вас в мир фантазии, где пузырьки танцуют, летают и даже обнимают. Идеальный выбор для яркого финала праздника – всего за 2500 грн!
+                    a.special(href='/ru/shows') Больше инфо
+        // Three
+        section#three.wrapper.spotlight.style3
+            .inner
+                a.image(href='/ru/costumes')
+                    img(src='assets/images/_custom/panda.webp'  loading='lazy' alt='Костюмы Панда для ярких детских праздников и мероприятий')
+                .content
+                    h2.major Мишка, панда, пёс Патрон, зайка, мишка Тэди: 1300 грн
+                    p
+                        | Добавьте праздники большой дозой радости! Наши костюмированные герои – Мишка, Панда, Пёс Патрон, Зайка и Мишка Тэди – подарят незабываемые объятия, веселые игры и море позитива. Стоимость участия героя – всего 1300 грн!
+                    a.special(href='/ru/costumes') Больше инфо
+        // Four
+        section#four.wrapper.alt.style1
+            .inner
+                h2.major Яркие эмоции, которые останутся в памяти навсегда!
+                p
+                    | Мы создаем праздники, которые восхищают, удивляют и радуют детей и взрослых! Выбирайте то, что сделает ваш день особенным – мы позаботимся обо всем до мелочей.
+                section.features
+                    article
+                        a.image(href='/ru/')
+                            img(src='assets/images/_custom/slimes.webp' loading='lazy' alt='Наборы для создания ярких и увлекательных слаймов своими руками' )
+                        h3.major Слаймы: поражающее творчество
+                        p
+                            | Дети обожают создавать что-то собственными руками! Мастер-класс по слаймам – это не только весело, но и полезно, ведь развивает фантазию и мелкую моторику.
+                        a.special(href='/ru/') Больше инфо
+                    article
+                        a.image(href='/ru/costumes')
+                            img(src='assets/images/_custom/santa.webp' loading='lazy' alt='Оригинальные и яркие костюмы для праздников и мероприятий')
+                        h3.major Костюмы: герои, оживающие
+                        p
+                            | Воплощайте мечты своих детей! Очаровательные костюмы любимых персонажей подарят детям незабываемое ощущение сказки и праздника.
+                        a.special(href='/ru/costumes') Больше инфо
+                    article
+                        a.image(href='/ru/shows')
+                            img(src='assets/images/_custom/show02.webp' loading='lazy' alt='Захватывающее детское шоу для веселых и незабываемых праздников')
+                        h3.major Шоу с сюрпризами: магия для всех
+                        p
+                            | Разместите драйву вашему празднику! Волшебники, ученые и даже Тесла-шоу заставят гостей затаить дыхание от восторга!
+                        a.special(href='/ru/shows') Больше инфо
+                    article
+                        a.image(href='/ru/games')
+                            img(src='assets/images/_custom/kids01.webp' loading='lazy' alt='Ігри, інтерактиви, танці')
+                        h3.major Развлечения для самых маленьких: забота и искренность
+                        p
+                            | Игры, интерактивы, танцы – мы найдем подход даже к самым маленьким гостям, создавая атмосферу тепла и счастья.
+                        a.special(href='/ru/games') Больше инфо
+                ul.actions
+                    li
+                        a.button(href='#footer') Связаться с нами
+        // Footer
+        include footer
+    include ../scripts
+

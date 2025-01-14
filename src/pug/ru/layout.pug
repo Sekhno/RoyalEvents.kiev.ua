@@ -1,5 +1,8 @@
 doctype html
 
+block html
+    html(lang='uk')
+
 head
     block head
         title 'default'
@@ -14,8 +17,8 @@ head
     link(rel="alternate" hreflang="x-default" href="https://royalevents.kiev.ua/")
     meta(property="og:locale" content="uk_UA")
     meta(property="og:type" content="article")
-    meta(property="og:title" content="Дитячі аніматори Київ та область недорого на виїзд")
-    meta(property="og:description" content="Аніматори на виїзд у Києві, Київській області ✅️ Аніматори для дітей замовити Київ ⚡ на дитяче свято, день народження, у садок, в ресторан")
+    meta(property="og:title" content="Детские аниматоры Киев и область недорого на выезд")
+    meta(property="og:description" content="Аниматоры на выезд в Киеве, Киевской области ✅️ Аниматоры для детей заказать Киев ⚡ на детский праздник, день рождения, в сад, в ресторан")
     meta(property="og:url" content="https://royalevents.kiev.ua")
     meta(property="og:site_name" content="Royal Events")
     meta(property="article:modified_time" content="2025-01-03T18:09:33+00:00")
@@ -29,7 +32,7 @@ head
         "@context": "https://schema.org",
         "@type": "Event",
         "name": "Royal Events",
-        "description": "Організація дитяхих свят, Поздоровлення з днем народження",
+        "description": "Организация детских празлников, Поздравления с днём рождения",
         "image": "https://royalevents.kiev.ua/assets/images/Royal%20Events.svg",
         "startDate": "2024-10-01",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
@@ -49,7 +52,6 @@ head
         "name": "Royal Events"
         }
         }
-
 body.is-preload
     // Page Wrapper
     #page-wrapper
@@ -66,16 +68,16 @@ body.is-preload
                 h2 Menu
                 ul.links
                     li
-                        a(href='/') Головна
+                        a(href='/ru/') Главная
                     li
-                        a(href='animators') Аніматори
+                        a(href='/ru/animators') Аниматоры
                     li
-                        a(href='shows') Дитячі Шоу
+                        a(href='/ru/shows') Детское Шоу
                     li
-                        a(href='costumes') Костюми
+                        a(href='/ru/costumes') Костюми
                     li
-                        a(href='games') Ігри
+                        a(href='/ru/games') Игры
                     li
-                        a(href='/ru/') RU
+                        a(href='/') UA
                 a.close(href='#') Close
         block content

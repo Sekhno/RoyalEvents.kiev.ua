@@ -97,3 +97,16 @@ block content
         // Footer
         include ../footer
     include ../scripts
+    script(type='application/ld+json').
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Організація дитяхих свят, Поздоровлення з днем народження",
+            "url": "https://royalevents.kiev.ua",
+            logo": "https://royalevents.kiev.ua/assets/images/Royal Events.svg",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+38(097) 881-51-10",
+                "contactType": "Customer Service"
+            }
+        }
